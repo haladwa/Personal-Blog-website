@@ -1,0 +1,347 @@
+@import url("./footer.css");
+@import url("./phone.css");
+@import url("./post.css");
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   nav{
+     display: flex;
+     width: 100%;
+     background-color: #734913;
+     height: 15%;
+     flex-wrap: wrap;
+    }
+
+.logo img{
+    display: flex;
+    flex-wrap: wrap;
+     height: 80px;
+     width: 90px;
+ }
+
+ .navitem{
+     display:flex;
+     flex-wrap: wrap;
+     
+ }
+  .navitem  li{
+    display: flex;
+     list-style: none;
+     margin: 20px;
+     justify-items: center;
+     align-items: center;
+     text-align: center;
+    
+ }
+ .navitem li a{
+         text-decoration: none;
+         color: #ffffff;
+         text-transform: capitalize;
+         font-size: 20px;
+         letter-spacing: 2px;
+     
+ }
+ 
+ .navitem li a:hover{
+     color: #ae843c;
+ }
+  .heading{
+    text-align: center;
+    text-transform: capitalize;
+    color: #734913;
+
+  }
+
+  .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 100%;
+    
+  
+}
+
+.blog-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    border: solid #734913;
+  
+}
+
+.blog-box img
+{
+    display: flex;
+    height: 100px;
+    width: 210px;
+    margin-right: 40%;
+    
+}
+.cap{
+    
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-align: center;
+    color:#734913;
+    font-size: 20px;
+  }
+  h1{
+    text-transform: capitalize;
+    text-align: center;
+
+  }
+  p{
+    text-align: justify;
+    padding: 5px;
+    font-size: 10px;
+  
+  }
+  .button{
+  margin-top: 40px;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  font-size: large;
+  text-transform:uppercase;
+  margin-left: 50px;
+  flex-wrap: wrap;
+}
+
+
+/* .blog-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px 0px;
+   flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: #faf4f4;
+    border: 1px solid #a2a0a0;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-text span{
+    color: blue;
+    font-size: 20px;
+}
+.blog-text p{
+    color: black;
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.my-button {
+    padding: 10px 20px;
+    background-color: #f0b6dc;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.my-button:hover{
+    background-color: aqua;
+}
+.my-button:active{
+    background-color: #a2a0a0;
+}
+.blog-box2{
+    width: 350px;
+    background-color: #faf4f4;
+    border: 1px solid #a2a0a0;
+    margin: 20px;
+}
+.blog-img2{
+    width: 100%;
+    height: auto;
+}
+.blog-img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text2{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-text2 span{
+    color: blue;
+    font-size: 20px;
+}
+.blog-text2 p{
+    color: black;
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.my-button1{
+    padding: 10px 20px;
+    background-color: #f0b6dc;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.my-button1:hover{
+    background-color: aqua;
+}
+.my-button1:active{
+    background-color: #a2a0a0;
+}
+.blog-box3{
+    width: 350px;
+    background-color: #faf4f4;
+    border: 1px solid #a2a0a0;
+    margin: 20px;
+}
+.blog-img3{
+    width: 100%;
+    height: auto;
+}
+.blog-img3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text3{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-text3 span{
+    color: blue;
+    font-size: 20px;
+}
+.blog-text3 p{
+    color: black;
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.my-button2{
+    padding: 10px 20px;
+    background-color: #f0b6dc;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.my-button2:hover{
+    background-color: aqua;
+}
+.my-button2:active{
+    background-color: #a2a0a0;
+}
+.centered-heading {
+    text-align: center;
+    color: brown;
+    margin: 40px;
+    font-size: 25px;
+}
+.social-media span{
+    color: red;
+    font-size: 25px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:1250px){
+    .blog-box{
+        width: 300px;
+    }
+}
+@media(max-width:1100px){
+    .blog-box{
+        width: 70px;
+    }
+}
+@media(max-width:550px){
+    .blog-box{
+        margin: 20px 10px;
+        width: 100px;
+    }
+    #blog{
+        padding: 20px;
+    }
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content h3 {
+    color: grey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icons{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.icon1 img{
+    width: 80px;
+    height: 80px;
+}
+.icon2 img{
+    width: 50px;
+    height: 50px;   
+}
+.centered-heading{
+    letter-spacing : 5px;
+}
+
+
+ */

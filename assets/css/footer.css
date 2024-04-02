@@ -1,0 +1,32 @@
+
+.footer{
+    display: flex;
+    width: 100%;
+    background-color:#734913;
+    height: 30%;
+    padding: 20px ;
+  } 
+
+  .footer-content{
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+
+  }
+
+  .icons{
+    display: flex;
+    height:2px ;
+    width:2px ;
+    justify-content: space-between;
+    margin: 20px 20px;
+    justify-items: center;
+    
+  }
+
+  /* u{
+    
+    color: white;
+    text-transform:capitalize ;
+  } */

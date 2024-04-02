@@ -1,0 +1,57 @@
+@import url('./style.css');
+.container1{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+    /* margin: 70px; */
+    grid-gap: 20px;
+
+}
+
+.header{
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end:20 ;
+    color: #734913;
+}
+
+.main{
+    grid-row-start: 2;
+    grid-row-end: 20;
+    grid-column-start: 1;
+    grid-column-end:20 ;
+    background-color:bisque;
+
+}  
+
+.fig{
+    justify-items: center;
+    height: 450px;
+    width: 450px;
+    margin-left: 30%;
+}
+
+.cap1{
+    font-size: 20px;
+    padding-top: 2px;
+    text-transform: uppercase;
+}
+ .avatar{
+    width: 50px;
+   height: 50px;
+    border-radius: 50%;
+ }
+ .aother{
+    text-transform: capitalize;
+ }
+ p{
+    margin-left: 30%;
+    text-align: justify;
+    font-size: 50px;
+
+ }
+ .media{
+    margin-left: 30%;
+ }
